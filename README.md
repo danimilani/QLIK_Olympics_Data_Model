@@ -45,6 +45,8 @@ We can see the data in a High-Level Summary in the first sheet, that is a KPI wi
 - Country Name - this table contains the name of all countries
 - Athletes Participation over the Years - this shart shows how many athletes participated in the Olympics over the years
 
+You can find the Qlik document here: [Sheet 1](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=177547dd-dc69-4156-9909-8aafab537d1e&theme=horizon&opt=ctxmenu,currsel)
+
 ![Alt text](/images/qlik6.JPG)
 
 In this sheet we are able to filter by countries and also medal type to get a more detailed scenario.
@@ -57,8 +59,19 @@ And here we can see the same, but for Brazil:
 
 ![Alt text](/images/qlik8.JPG)
 
-[Sheet 1](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=177547dd-dc69-4156-9909-8aafab537d1e&theme=horizon&opt=ctxmenu,currsel)
+In the second sheet we are able to analyze more detailed data, as it shows the full olympic participant and medal list. In this table, you can see more details, for example the names of the athletes, which events and it also highlights the Gold medal for better visualization.
 
-[Sheet 2](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=e8f97a27-2676-4fec-8324-cf4a57bcc860&theme=horizon&opt=ctxmenu,currsel)
+You can find the Qlik document here: [Sheet 2](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=e8f97a27-2676-4fec-8324-cf4a57bcc860&theme=horizon&opt=ctxmenu,currsel)
 
-[Sheet 3](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=23f17ebc-d0f7-4df2-bd46-46edb1ddd754&theme=horizon&opt=ctxmenu,currsel)
+![Alt text](/images/qlik9.JPG)
+
+Finally, in the third table, we can see and analyze more detailed data related to the GDP details. 
+
+This table shows the count of Gold medals per year and per country, which each country's GDP per million dollars.
+
+- To sum the GDP and show only the amounts per million dollars I applied the following formula: Sum({<MEASURE={'MLN_USD'}>}Value)
+- To count the amount of gold medals I applied the following formula: Count({<Medal={'Gold'}>}ID)
+
+You can find the Qlik document here: [Sheet 3](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=23f17ebc-d0f7-4df2-bd46-46edb1ddd754&theme=horizon&opt=ctxmenu,currsel)
+
+![Alt text](/images/qlik10.JPG)
