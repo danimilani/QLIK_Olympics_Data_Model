@@ -12,6 +12,8 @@ ID, name, sex, age, height, weight, team, location, games, year, season, city, s
 
 3. MapCountryName (noc_regions): this table contains the countries and their names
 
+Please note that you are required to have a Qlik Sense account in order to view the dynamic sheets mentioned in the links below.
+
 ## Data Model
 
 These tables are linked to each other using the fields "YEAR" and "LOCATION" as shown in the below image:
