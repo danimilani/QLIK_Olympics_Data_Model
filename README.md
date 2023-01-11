@@ -18,7 +18,11 @@
   
 ## 1. Introduction <a name="introduction"></a>
 
-Data Model built in Qlik App during the course "Creating Your First Qlik Sense App" in Pluralsight. I used the Qlik Cloud to elaborate this dataset.
+This project is a Data Model built in Qlik App during the course "Creating Your First Qlik Sense App" in Pluralsight. 
+
+The database used in this project is related to the Olympic Games and it contains data from 1896 (1st year of Olympics) to 2016. We also use the countries' names and their GDP data to enhance the database.
+
+I have used the Qlik Cloud to elaborate this dataset and here i describe the process to import, prepare and visualize the data. I also describe an example of data exploration, with a video showing how to filter data in the Dashboard and a few inferences that we can make by analyzing the filtered data in the Dashboards.
 
 ## 2. Dataset and Importing the Database <a name="item2"></a>
 
@@ -124,7 +128,7 @@ https://user-images.githubusercontent.com/58880353/211905833-6a889807-7a97-4800-
 
 With these filters, we can find some conclusions:
 
-- The total number of athletes that participated in the Olympics in Spain from 1900 to 2016 was 5.31k
+- The total number of athletes that participated in the Olympics in Spain from its beginning until 2016 was 5.31k
 - The total number of athletes who won any medal during this period was 489
 - The majority of medal winners won SILVER medals, and the minority won GOLD medals
 - The proportion of medals was: 27,8% BRONZE | 49,6% SILVER | 22,4% GOLD
