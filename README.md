@@ -4,7 +4,7 @@
 1. [Introduction](#introduction)
 2. [Dataset and Importing the Database](#item2)
 3. [Data Preparation](#item3)
-4. [Data Model](#item4)
+4. [Data Visualization](#item4)
    
    4.1. [Olympics Data Model - Sheet 1](#sheet1)
    
@@ -51,7 +51,7 @@ To prepare the database and be able to perform these links, I had to:
 
 ![Alt text](/images/qlik5.JPG)
 
-## 4. Data Model <a name="item4"></a>
+## 4. Data Visualization <a name="item4"></a>
 
 After that, I could create the Olympics Data Model to be able to analyze the data contained in these three tables.
 
