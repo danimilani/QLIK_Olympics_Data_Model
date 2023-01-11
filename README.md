@@ -13,6 +13,7 @@
    4.3. [GDP Details - Sheet 3](#sheet3)
 
 5. [Data Exploration](#item5)
+6. [References](#item6)
 
   
 ## 1. Introduction <a name="introduction"></a>
@@ -110,7 +111,9 @@ You can find the Qlik document here: [Sheet 3](https://tmxx59gmlb7gjvt.eu.qlikcl
 
 The below video shows an example of a data exploration that we can perform in Qlik with this Data Model. In this example, the user filters the results by Spain and considers only the Bronze, Gold and Silver medals:
 
+https://user-images.githubusercontent.com/58880353/211905833-6a889807-7a97-4800-9193-9731fd511e4a.mp4
 
-![datamodel_AdobeExpress](https://user-images.githubusercontent.com/58880353/211902691-f069f83b-f2c6-447f-ace1-e5bd9fe55c82.gif)
 
+
+## 6. References <a name="item6"></a>
 
