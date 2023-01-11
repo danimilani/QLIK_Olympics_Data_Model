@@ -1,12 +1,15 @@
 # Olympics Data Model in Qlik Cloud
 
-# Table of contents
+## Table of contents
 1. [Introduction](#introduction)
 2. [Dataset and Importing the Database](#item2)
 3. [Data Preparation](#item3)
 4. [Data Model](#item4)
+   
    4.1. [Olympics Data Model - Sheet 1](#sheet1)
+   
    4.2. [Athlete Medal Details - Sheet 2](#sheet2)
+   
    4.3. [GDP Details - Sheet 3](#sheet3)
 
 ## 1. Introduction <a name="introduction"></a>
