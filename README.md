@@ -137,7 +137,7 @@ With these filters, we can get to some conclusions:
 
 ## 6. References <a name="item6"></a>
 
-[Qlik Cloud] (https://www.qlik.com/)
+[Qlik Cloud](https://www.qlik.com/)
 
 [Creating Your First Qlik Sense App by Michael Walker on Pluralsight](https://app.pluralsight.com/library/courses/qlik-sense-first-app)
 
