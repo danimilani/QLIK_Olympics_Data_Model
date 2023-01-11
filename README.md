@@ -67,10 +67,19 @@ Our model is based in the following structure:
 
 We can see the data in a High-Level Summary in the first sheet, that is a KPI with the following charts:
 
-- Number of Athletes - this field count the number of athletes who participated in the Olympics
+- Number of Athletes - this field counts the number of athletes (count by their ID) who participated in the Olympics
+
+![Alt text](/images/ol_id_athletes.JPG)
+
 - Participation and Medal Winners - this chart shows the amount of medal winners per medal type: Bronze, Gold, Silver or NA (no medal)
+
+![Alt text](/images/ol_medal_winners.JPG)
+
 - Country Name - this table contains the name of all countries
-- Athletes Participation over the Years - this shart shows how many athletes participated in the Olympics over the years
+
+- Athletes Participation over the Years - this shart shows how many athletes participated in the Olympics over the years 
+
+![Alt text](/images/ol_year_athletes.JPG)
 
 You can find the Qlik document here: [Sheet 1](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=177547dd-dc69-4156-9909-8aafab537d1e&theme=horizon&opt=ctxmenu,currsel)
 
@@ -113,7 +122,16 @@ The below video shows an example of a data exploration that we can perform in Ql
 
 https://user-images.githubusercontent.com/58880353/211905833-6a889807-7a97-4800-9193-9731fd511e4a.mp4
 
+With these filters, we can find some conclusions:
 
+- The total number of athletes that participated in the Olympics in Spain from 1900 to 2016 was 5.31k
+- The total number of athletes who won any medal during this period was 489
+- The majority of medal winners won SILVER medals, and the minority won GOLD medals
+- The proportion of medals was: 27,8% BRONZE | 49,6% SILVER | 22,4% GOLD
+- There are two peak years during this period when Spain won 70 medals: in 1992 and in 2008
+- However, in 1992 Spain won 48 Gold medals, versus only 7 Gold medals in 2008
 
 ## 6. References <a name="item6"></a>
 
+[Creating Your First Qlik Sense App by Michael Walker on Pluralsight](https://app.pluralsight.com/library/courses/qlik-sense-first-app)
+[Qlik Cloud] (https://www.qlik.com/)
