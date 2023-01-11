@@ -43,21 +43,21 @@ This model uses three databases:
 
 These tables were linked to each other using the fields "YEAR" and "LOCATION" as shown in the below image:
 
-![Alt text](/images/qlik2.JPG)
+![Qlik Links](/images/qlik2.JPG)
 
 To prepare the database and be able to perform these links, I had to:
 
 - Load the table MapCountryName as a Mapping Load table:
 
-![Alt text](/images/qlik3.JPG)
+![Mapping Load Table](/images/qlik3.JPG)
 
 - Edit the name of the field NOC to LOCATION in the Medals table and link MapCountryName table as a Mapping Table:
 
-![Alt text](/images/qlik4.JPG)
+![Medals Table](/images/qlik4.JPG)
 
 - Edit the name of the field Time to YEAR in the GDP data table:
 
-![Alt text](/images/qlik5.JPG)
+![GDP Table](/images/qlik5.JPG)
 
 ## 4. Data Visualization <a name="item4"></a>
 
@@ -65,7 +65,7 @@ After that, I could create the Olympics Data Model to be able to analyze the dat
 
 Our model is based in the following structure:
 
-![Alt text](/images/qlik1.JPG)
+![App Structure](/images/qlik1.JPG)
 
 ### 4.1. Olympics Data Model - Sheet 1 <a name="sheet1"></a>
 
@@ -73,31 +73,31 @@ We can see the data in a High-Level Summary in the first sheet, that is a KPI wi
 
 - Number of Athletes - this field counts the number of athletes (count by their ID) who participated in the Olympics
 
-![Alt text](/images/ol_id_athletes.JPG)
+![Number of Athletes](/images/ol_id_athletes.JPG)
 
 - Participation and Medal Winners - this chart shows the amount of medal winners per medal type: Bronze, Gold, Silver or NA (no medal)
 
-![Alt text](/images/ol_medal_winners.JPG)
+![Medal Winners](/images/ol_medal_winners.JPG)
 
 - Country Name - this table contains the name of all countries
 
 - Athletes Participation over the Years - this shart shows how many athletes participated in the Olympics over the years 
 
-![Alt text](/images/ol_year_athletes.JPG)
+![Athletes Participation](/images/ol_year_athletes.JPG)
 
 You can find the Qlik document here: [Sheet 1](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=177547dd-dc69-4156-9909-8aafab537d1e&theme=horizon&opt=ctxmenu,currsel)
 
-![Alt text](/images/qlik6.JPG)
+![Dashboard1](/images/qlik6.JPG)
 
 In this sheet we are able to filter by countries and also medal type to get a more detailed scenario.
 
 In example, here we can see a detailed visualization with the data for USA, excluding non-medals:
 
-![Alt text](/images/qlik7.JPG)
+![Dashboard2](/images/qlik7.JPG)
 
 And here we can see the same, but for Brazil:
 
-![Alt text](/images/qlik8.JPG)
+![Dashboard3](/images/qlik8.JPG)
 
 ### 4.2. Athlete Medal Details - Sheet 2 <a name="sheet2"></a>
 
@@ -105,7 +105,7 @@ In the second sheet we are able to analyze more detailed data, as it shows the f
 
 You can find the Qlik document here: [Sheet 2](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=e8f97a27-2676-4fec-8324-cf4a57bcc860&theme=horizon&opt=ctxmenu,currsel)
 
-![Alt text](/images/qlik9.JPG)
+![Table Athlete Medal Details](/images/qlik9.JPG)
 
 ### 4.3. GDP Details - Sheet 3 <a name="sheet3"></a>
 
@@ -118,7 +118,7 @@ This table shows the count of Gold medals per year and per country, which each c
 
 You can find the Qlik document here: [Sheet 3](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=23f17ebc-d0f7-4df2-bd46-46edb1ddd754&theme=horizon&opt=ctxmenu,currsel)
 
-![Alt text](/images/qlik10.JPG)
+![Table GDP Details](/images/qlik10.JPG)
 
 ## 5. Data Exploration <a name="item5"></a>
 
@@ -126,7 +126,7 @@ The below video shows an example of a data exploration that we can perform in Ql
 
 https://user-images.githubusercontent.com/58880353/211905833-6a889807-7a97-4800-9193-9731fd511e4a.mp4
 
-With these filters, we can find some conclusions:
+With these filters, we can get to some conclusions:
 
 - The total number of athletes that participated in the Olympics in Spain from its beginning until 2016 was 5.31k
 - The total number of athletes who won any medal during this period was 489
@@ -137,5 +137,7 @@ With these filters, we can find some conclusions:
 
 ## 6. References <a name="item6"></a>
 
-[Creating Your First Qlik Sense App by Michael Walker on Pluralsight](https://app.pluralsight.com/library/courses/qlik-sense-first-app)
 [Qlik Cloud] (https://www.qlik.com/)
+
+[Creating Your First Qlik Sense App by Michael Walker on Pluralsight](https://app.pluralsight.com/library/courses/qlik-sense-first-app)
+
