@@ -1,26 +1,40 @@
-# QLIK_Olympics_Data_Model
-Data Model built in Qlik App during the course "Creating Your First Qlik Sense App" in Pluralsight
+# Olympics Data Model in Qlik Cloud
+
+# Table of contents
+1. [Introduction](#introduction)
+2. [Dataset and Importing the Database](#item2)
+3. [Data Preparation](#item3)
+4. [Data Model](#item4)
+   4.1. [Olympics Data Model - Sheet 1](#sheet1)
+   4.2. [Athlete Medal Details - Sheet 2](#sheet2)
+   4.3. [GDP Details - Sheet 3](#sheet3)
+
+## 1. Introduction <a name="introduction"></a>
+
+Data Model built in Qlik App during the course "Creating Your First Qlik Sense App" in Pluralsight. I used the Qlik Cloud to elaborate this dataset.
+
+## 2. Dataset and Importing the Database <a name="item2"></a>
 
 This model uses three databases:
 
-1. Medals table (DP_LIVE_13102018040554424): this table contains the GDP data with the following fields:
-Location, indicator, subject, measure, frequency, year, value and flag codes
+1. GDP data (DP_LIVE_13102018040554424): this table contains the GDP data with the following columns:
+"LOCATION","INDICATOR","SUBJECT","MEASURE","FREQUENCY","TIME","Value","Flag Codes"
 
-2. GDP data (athlete_events): this table contains the athlete data, with the following fields:
-ID, name, sex, age, height, weight, team, location, games, year, season, city, sport, event and medal
-(Note: this table is not included in this repository due to its size)
+2. Medals (athlete_events): this table contains the athlete data, with the following columns:
+"ID","Name","Sex","Age","Height","Weight","Team","NOC","Games","Year","Season","City","Sport","Event","Medal"
+*(Note: this table could not be included in this repository due to its size)*
 
 3. MapCountryName (noc_regions): this table contains the countries and their names
 
-Please note that you are required to have a Qlik Sense account in order to view the dynamic sheets mentioned in the links below.
+*Please note that you are required to have a Qlik Sense account in order to view the dynamic sheets mentioned in the links below.*
 
-## Data Model
+## 3. Data Preparation <a name="item3"></a>
 
-These tables are linked to each other using the fields "YEAR" and "LOCATION" as shown in the below image:
+These tables were linked to each other using the fields "YEAR" and "LOCATION" as shown in the below image:
 
 ![Alt text](/images/qlik2.JPG)
 
-To enable these links, I had to:
+To prepare the database and be able to perform these links, I had to:
 
 - Load the table MapCountryName as a Mapping Load table:
 
@@ -34,11 +48,15 @@ To enable these links, I had to:
 
 ![Alt text](/images/qlik5.JPG)
 
-After that, we could create the Olympics Data Model to be able to analyze the data contained in these three tables.
+## 4. Data Model <a name="item4"></a>
+
+After that, I could create the Olympics Data Model to be able to analyze the data contained in these three tables.
 
 Our model is based in the following structure:
 
 ![Alt text](/images/qlik1.JPG)
+
+### 4.1. Olympics Data Model - Sheet 1 <a name="sheet1"></a>
 
 We can see the data in a High-Level Summary in the first sheet, that is a KPI with the following charts:
 
@@ -61,13 +79,17 @@ And here we can see the same, but for Brazil:
 
 ![Alt text](/images/qlik8.JPG)
 
+### 4.2. Athlete Medal Details - Sheet 2 <a name="sheet2"></a>
+
 In the second sheet we are able to analyze more detailed data, as it shows the full olympic participant and medal list. In this table, you can see more details, for example the names of the athletes, which events and it also highlights the Gold medal for better visualization.
 
 You can find the Qlik document here: [Sheet 2](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=e8f97a27-2676-4fec-8324-cf4a57bcc860&theme=horizon&opt=ctxmenu,currsel)
 
 ![Alt text](/images/qlik9.JPG)
 
-Finally, in the third table, we can see and analyze more detailed data related to the GDP details. 
+### 4.3. GDP Details - Sheet 3 <a name="sheet3"></a>
+
+Finally, in the third table, we can see and analyze more detailed data related to the GDP (Gross Domestic Product) details. 
 
 This table shows the count of Gold medals per year and per country, which each country's GDP per million dollars.
 
