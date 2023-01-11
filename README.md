@@ -12,6 +12,10 @@
    
    4.3. [GDP Details - Sheet 3](#sheet3)
 
+5. [Data Exploration](#item5)
+
+   5.1. [Example #1](#example1)
+
 ## 1. Introduction <a name="introduction"></a>
 
 Data Model built in Qlik App during the course "Creating Your First Qlik Sense App" in Pluralsight. I used the Qlik Cloud to elaborate this dataset.
@@ -102,3 +106,10 @@ This table shows the count of Gold medals per year and per country, which each c
 You can find the Qlik document here: [Sheet 3](https://tmxx59gmlb7gjvt.eu.qlikcloud.com/single/?appid=75be3d5d-1823-427b-a1c5-9aa3009ea961&sheet=23f17ebc-d0f7-4df2-bd46-46edb1ddd754&theme=horizon&opt=ctxmenu,currsel)
 
 ![Alt text](/images/qlik10.JPG)
+
+## 5. Data Exploration <a name="item5"></a>
+
+### 5.1. Example 1 <a name="example1"></a>
+
+![datamodel](https://user-images.githubusercontent.com/58880353/211902045-82999289-abf6-4f3b-a50a-76d673a2aa73.gif)
+
