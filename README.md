@@ -129,7 +129,7 @@ https://user-images.githubusercontent.com/58880353/211905833-6a889807-7a97-4800-
 With these filters, we can get to some conclusions:
 
 - The total number of athletes that participated in the Olympics in Spain from its beginning until 2016 was 5.31k
-- The total number of athletes who won any medal during this period was 489
+- The total number of athletes who won a medal during this period was 489
 - The majority of medal winners won SILVER medals, and the minority won GOLD medals
 - The proportion of medals was: 27,8% BRONZE | 49,6% SILVER | 22,4% GOLD
 - There are two peak years during this period when Spain won 70 medals: in 1992 and in 2008
