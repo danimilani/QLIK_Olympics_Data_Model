@@ -14,8 +14,7 @@
 
 5. [Data Exploration](#item5)
 
-   5.1. [Example #1](#example1)
-
+  
 ## 1. Introduction <a name="introduction"></a>
 
 Data Model built in Qlik App during the course "Creating Your First Qlik Sense App" in Pluralsight. I used the Qlik Cloud to elaborate this dataset.
@@ -109,7 +108,9 @@ You can find the Qlik document here: [Sheet 3](https://tmxx59gmlb7gjvt.eu.qlikcl
 
 ## 5. Data Exploration <a name="item5"></a>
 
-### 5.1. Example 1 <a name="example1"></a>
+The below video shows an example of a data exploration that we can perform in Qlik with this Data Model. In this example, the user filters the results by Spain and considers only the Bronze, Gold and Silver medals:
 
-![datamodel](https://user-images.githubusercontent.com/58880353/211902045-82999289-abf6-4f3b-a50a-76d673a2aa73.gif)
+
+![datamodel_AdobeExpress](https://user-images.githubusercontent.com/58880353/211902691-f069f83b-f2c6-447f-ace1-e5bd9fe55c82.gif)
+
 
