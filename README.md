@@ -20,7 +20,7 @@
 
 This project is a Data Model built in Qlik App during the course "Creating Your First Qlik Sense App" in Pluralsight. 
 
-The database used in this project is related to the Olympic Games and it contains data from 1896 (1st year of Olympics) to 2016. We also use the countries' names and their GDP data to enhance the database.
+The database used in this project is related to the Olympic Games and it includes the data from Athens 1896 to Rio 2016. We also use the countries' names and their GDP data to enhance the database.
 
 I have used the Qlik Cloud to elaborate this dataset and here i describe the process to import, prepare and visualize the data. I also describe an example of data exploration, with a video showing how to filter data in the Dashboard and a few inferences that we can make by analyzing the filtered data in the Dashboards.
 
