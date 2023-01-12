@@ -29,11 +29,10 @@ I have used the Qlik Cloud to elaborate this dataset and here i describe the pro
 This model uses three databases:
 
 1. GDP data (DP_LIVE_13102018040554424): this table contains the GDP data with the following columns:
-"LOCATION","INDICATOR","SUBJECT","MEASURE","FREQUENCY","TIME","Value","Flag Codes"
+"LOCATION","INDICATOR","SUBJECT","MEASURE","FREQUENCY","TIME","Value","Flag Codes".
 
 2. Medals (athlete_events): this table contains the athlete data, with the following columns:
-"ID","Name","Sex","Age","Height","Weight","Team","NOC","Games","Year","Season","City","Sport","Event","Medal"
-*(Note: this table could not be included in this repository due to its size)*
+"ID","Name","Sex","Age","Height","Weight","Team","NOC","Games","Year","Season","City","Sport","Event","Medal".
 
 3. MapCountryName (noc_regions): this table contains the countries and their names
 
